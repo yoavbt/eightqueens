@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>The eight queens puzzle</title>
+
+</head>
+
+<body>
+	<div class="start-menu">
+		<div>
+			<h1 style="text-align: center">The eight 👑 puzzle</h1>
+			<ul style="width: 25vw">
+				<li>The eight queens puzzle is the problem of placing eight chess queens on an 8×8 chessboard so that no two queens threaten each other.</li>
+				<li>A solution requires that no two queens share the same row, column, or diagonal.</li>
+				<li>Read more <a href="https://en.wikipedia.org/wiki/Eight_queens_puzzle">here</a></li>
+				<li>The default is 8×8 board. You can choose different board size N (4 to 10) : <input style="width: 80px;" id="size-of-board" type="number" value="8" min="4" max="10"></li>
+			</ul>
+
+		</div>
+		<div class="wrapper" id="start-btn">
+			<div class="circle pulse"></div>
+			<div class="circle">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+					<polygon points="40,30 65,50 40,70"></polygon>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<div class="game">
+	</div>
+	<div class="modal"></div>
+	<script src="main.js"></script>
+</body>
+
+</html>
